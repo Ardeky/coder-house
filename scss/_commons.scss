@@ -1,0 +1,15 @@
+body {
+    background: $headingColor !important;
+    font-family: $mainFont;
+    color: $secondaryColor;
+    h1 {
+        font-size: $textXl;
+        font-weight: $fontBold;
+        font-family: $headingFont;
+    }
+    h2, h3{
+        font-size: $textXl;
+        font-weight: $fontBold;
+        font-family: $headingFont;
+    }
+}

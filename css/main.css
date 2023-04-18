@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital@1&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.nav {
+  font-weight: 600;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+.nav .button {
+  background: #fdcc45;
+}
+.nav .button:hover {
+  border-color: rgb(255, 255, 255);
+}
+.nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+.nav .search-box {
+  height: 35px;
+  background: #fdcc45;
+  border-radius: 35px;
+}
+.nav .search-box .search-text {
+  color: rgb(110, 101, 101);
+}
+.nav .search-box .search-button {
+  width: 35px;
+  height: 35px;
+  color: rgb(110, 101, 101);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #fdcc45;
+}
+
+.main {
+  background: url(../images/SL-092920-35860-24.jpg) no-repeat bottom center/cover;
+  height: 400px;
+  font-size: 2.5em;
+  padding-bottom: 50px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.wrap .box {
+  margin: 10px;
+  padding: 8px;
+  background-color: #fdcc45;
+  width: 350px;
+  height: 500px;
+  box-shadow: 0px 1px 10px;
+}
+
+.grided {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "mb1 mb1 mb5" "mb1 mb1 mb2" "mb3 mb4 mb2" "mb6 mb6 mb7" "jd1 jd2 jd2" "jd3 jd2 jd2" "jd4 jd4 jd5" "jd4 jd4 jd6" "sk1 sk2 sk3" "sk4 sk5 sk3" "sk6 sk6 sk7";
+}
+.grided .melbourne1 {
+  grid-area: mb1;
+  background: url(../images/galery/melbourne_pole.webp) no-repeat bottom center/cover;
+  height: 42.5vw;
+  min-height: 320px;
+  max-height: 420px;
+}
+.grided .melbourne2 {
+  grid-area: mb2;
+  background: url(../images/galery/melbourne_maxwinner.webp) no-repeat center center/cover;
+  height: 42.5vw;
+  min-height: 320px;
+  max-height: 420px;
+}
+.grided .melbourne3 {
+  grid-area: mb3;
+  background: url(../images/galery/melbourne_pilots.webp) no-repeat bottom center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .melbourne4 {
+  grid-area: mb4;
+  background: url(../images/galery/melbourne_sign.webp) no-repeat right center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .melbourne5 {
+  grid-area: mb5;
+  background: url(../images/galery/melbourne_leclerc_out.webp) no-repeat center center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .melbourne6 {
+  grid-area: mb6;
+  background: url(../images/galery/melbourne_accident.webp) no-repeat center center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .melbourne7 {
+  grid-area: mb7;
+  background: url(../images/galery/melbourne_turn.webp) no-repeat center center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .jeddah1 {
+  grid-area: jd1;
+  background: url(../images/galery/jeddah_cas.webp) no-repeat top center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .jeddah2 {
+  grid-area: jd2;
+  background: url(../images/galery/jeddah_yuki_pierre.webp) no-repeat center center/cover;
+  height: 42, 5vw;
+  min-height: 320px;
+  max-height: 420px;
+}
+.grided .jeddah3 {
+  grid-area: jd3;
+  background: url(../images/galery/jeddah_pole.webp) no-repeat left center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .jeddah4 {
+  grid-area: jd4;
+  background: url(../images/galery/jeddah_perez_racewinner.webp) no-repeat center center/cover;
+  height: 42, 5vw;
+  min-height: 320px;
+  max-height: 420px;
+}
+.grided .jeddah5 {
+  grid-area: jd5;
+  background: url(../images/galery/jeddah_willsmith_lewis.webp) no-repeat center center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .jeddah6 {
+  grid-area: jd6;
+  background: url(../images/galery/jeddah_fireworks.webp) no-repeat center center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .sakhir1 {
+  grid-area: sk1;
+  background: url(../images/galery/sakhir_maxwinner.webp) no-repeat left center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .sakhir2 {
+  grid-area: sk2;
+  background: url(../images/galery/sakhir_pitlane.webp) no-repeat center center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .sakhir3 {
+  grid-area: sk3;
+  background: url(../images/galery/sakhir_astonmartin.webp) no-repeat right center/cover;
+  height: 42, 5vw;
+  min-height: 320px;
+  max-height: 420px;
+}
+.grided .sakhir4 {
+  grid-area: sk4;
+  background: url(../images/galery/sakhir_race.webp) no-repeat bottom center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .sakhir5 {
+  grid-area: sk5;
+  background: url(../images/galery/sakhir_bigfish.webp) no-repeat top center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .sakhir6 {
+  grid-area: sk6;
+  background: url(../images/galery/sakhir_pole.webp) no-repeat center center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+.grided .sakhir7 {
+  grid-area: sk7;
+  background: url(../images/galery/sakhir_pilots.webp) no-repeat bottom center/cover;
+  height: 20vw;
+  min-height: 150px;
+  max-height: 200px;
+}
+
+.footer {
+  background: url(../images/14985.jpg) repeat bottom center/cover;
+  margin-top: 10px;
+}
+.footer-main ul {
+  list-style: none;
+  font-size: 1.5em;
+}
+.footer-main ul a {
+  color: #ffc10f;
+  padding-left: 10px;
+}
+.footer-main ul a:hover {
+  color: rgb(255, 255, 255);
+}
+.footer p {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  color: #ffc10f;
+  text-align: center;
+}
+.footer p a {
+  text-decoration: none;
+  color: #ffc10f;
+}
+.footer p a:hover {
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background: #ffd101 !important;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #141414;
+}
+body h1 {
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+body h2, body h3 {
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .nav {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .main {
+    padding-bottom: 0px;
+    font-size: 2em;
+  }
+  .footer p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+@media (max-width: 400px) {
+  .wrap .box {
+    width: 300px;
+  }
+  .footer-main ul a {
+    color: rgb(187, 35, 35);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
