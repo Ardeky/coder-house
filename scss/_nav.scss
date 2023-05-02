@@ -14,14 +14,14 @@
             }
         }
     }
-    .search-box {
+    .search-box{
         height: 35px;
         background: $navColor;
         border-radius: 35px;
-        .search-text {
+        .search-text{
             color: $helpColor;
         }
-        .search-button {
+        .search-button{
             width: 35px;
             height: 35px;
             color: $helpColor;
@@ -33,11 +33,30 @@
         }  
     } 
 }
-.main {
+.main{
     background: url(../images/SL-092920-35860-24.jpg) no-repeat bottom center/cover;
     height: 400px;
-    font-size: 2.5em;
-    padding-bottom: 50px;
+    font-size: 2.5em;;
+}
+.rule{
+    margin: auto;
+    ul{
+        li{
+            list-style: none;
+            padding-bottom: 10px;
+            h2, p{   
+                padding-bottom: 5px;
+            }
+            p{
+                text-align: justify;
+            }
+            .resize{
+                width: 80%;
+                margin: auto;
+                @include size(45vw,100px,600px)
+            }
+        }
+    }
 }
 .wrap{
     display: flex;
@@ -53,9 +72,9 @@
         box-shadow: 0px 1px 10px;
     }
 }
-.grided {
+.grided{
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas:
     "mb1 mb1 mb5" "mb1 mb1 mb2" "mb3 mb4 mb2" "mb6 mb6 mb7"
@@ -64,154 +83,115 @@
     .melbourne1{
         grid-area: mb1;
         background: url(../images/galery/melbourne_pole.webp) no-repeat bottom center/cover;
-        height: 42.5vw;
-        min-height: 320px;
-        max-height: 420px;
+        @include size(42.5vw,320px,420px)
     }
     .melbourne2{
         grid-area: mb2;
         background: url(../images/galery/melbourne_maxwinner.webp) no-repeat center center/cover;
-        height: 42.5vw;
-        min-height: 320px;
-        max-height: 420px;
+        @include size(42.5vw,320px,420px)
     }
     .melbourne3{
         grid-area: mb3;
         background: url(../images/galery/melbourne_pilots.webp) no-repeat bottom center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .melbourne4{
         grid-area: mb4;
         background: url(../images/galery/melbourne_sign.webp) no-repeat right center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .melbourne5{
         grid-area: mb5;
         background: url(../images/galery/melbourne_leclerc_out.webp) no-repeat center center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .melbourne6{
         grid-area: mb6;
         background: url(../images/galery/melbourne_accident.webp) no-repeat center center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .melbourne7{
         grid-area: mb7;
         background: url(../images/galery/melbourne_turn.webp) no-repeat center center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .jeddah1{
         grid-area: jd1;
         background: url(../images/galery/jeddah_cas.webp) no-repeat top center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .jeddah2{
         grid-area: jd2;
         background: url(../images/galery/jeddah_yuki_pierre.webp) no-repeat center center/cover;
-        height: 42,5vw;
-        min-height: 320px;
-        max-height: 420px;
+        @include size(42.5vw,320px,420px)
     }
     .jeddah3{
         grid-area: jd3;
         background: url(../images/galery/jeddah_pole.webp) no-repeat left center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .jeddah4{
         grid-area: jd4;
         background: url(../images/galery/jeddah_perez_racewinner.webp) no-repeat center center/cover;
-        height: 42,5vw;
-        min-height: 320px;
-        max-height: 420px;
+        @include size(42.5vw,320px,420px)
     }
     .jeddah5{
         grid-area: jd5;
         background: url(../images/galery/jeddah_willsmith_lewis.webp) no-repeat center center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .jeddah6{
         grid-area: jd6;
         background: url(../images/galery/jeddah_fireworks.webp) no-repeat center center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .sakhir1{
         grid-area: sk1;
         background: url(../images/galery/sakhir_maxwinner.webp) no-repeat left center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .sakhir2{
         grid-area: sk2;
         background: url(../images/galery/sakhir_pitlane.webp) no-repeat center center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .sakhir3{
         grid-area: sk3;
         background: url(../images/galery/sakhir_astonmartin.webp) no-repeat right center/cover;
-        height: 42,5vw;
-        min-height: 320px;
-        max-height: 420px;
+        @include size(42.5vw,320px,420px)
     }
     .sakhir4{
         grid-area: sk4;
         background: url(../images/galery/sakhir_race.webp) no-repeat bottom center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .sakhir5{
         grid-area: sk5;
         background: url(../images/galery/sakhir_bigfish.webp) no-repeat top center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .sakhir6{
         grid-area: sk6;
         background: url(../images/galery/sakhir_pole.webp) no-repeat center center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
     .sakhir7{
         grid-area: sk7;
         background: url(../images/galery/sakhir_pilots.webp) no-repeat bottom center/cover;
-        height: 20vw;
-        min-height: 150px;
-        max-height: 200px;
+        @include size(20vw,150px,200px)
     }
 }
 .footer {
-    background: url(../images/14985.jpg)repeat bottom center/cover;
+    background: url(../images/backfooter.jpg)repeat bottom center/cover;
     margin-top: 10px;
     &-main {
         & ul {
             list-style: none;
             font-size: 1.5em;
+            margin-top: 10px;
             a {
             color: $mainColor;
-            padding-left: 10px;
+            padding-left: 20px;
                 &:hover {
                     color: $hoverColor;
                 }

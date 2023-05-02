@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background: $headingColor !important;
     font-family: $mainFont;
@@ -6,10 +9,15 @@ body {
         font-size: $textXl;
         font-weight: $fontBold;
         font-family: $headingFont;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        text-align: center;
     }
     h2, h3{
         font-size: $textXl;
         font-weight: $fontBold;
         font-family: $headingFont;
+    }
+    p{
+        font-family: $mainFont;
     }
 }

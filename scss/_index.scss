@@ -1,0 +1,87 @@
+.main-img {
+    padding-top: 100px;
+    background: url(../images/index/main.jpg) no-repeat bottom center/cover;
+    height: 400px;
+    .con{
+        margin: auto;
+        .welcome {
+            width: 60%;
+            h1{
+                font-size: 4em;
+                color: $hoverColor;
+                -webkit-text-stroke-width: .5px;
+                -webkit-text-stroke-color: black;
+            }
+            h2 {
+                font-size: 2.5em;
+                color: $hoverColor;
+                text-align: center;
+                width: 75%;
+                -webkit-text-stroke-width: .5px;
+                -webkit-text-stroke-color: black;
+            }
+            div {
+                h1 {
+                    color: $navColor;
+                    text-align: right;
+                    width: 80%;
+                    -webkit-text-stroke-width: .5px;
+                    -webkit-text-stroke-color: black;
+                }
+            }
+        }
+    }
+}
+.news {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    a {
+        text-decoration: none;
+        padding-right: 2px;
+        img {
+            width: 100%;
+            height: 150px;
+        }
+        h3, p {
+            color: $secondaryColor;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 5px;
+        }
+        h3 {
+            font-size: $textLg;
+            padding-top: 5px;
+        }
+        p {
+            font-size: $textSm;
+        }
+        .anm-news {
+            height: 150px;
+            overflow: hidden;
+            img {
+                transition: transform 0.5s ease;
+            }
+        }
+        .box {
+            height: 200px;
+            background: $navColor;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &:hover > .anm-news img {
+            transform: scale(1.2);
+        }
+    }
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    h2, h3 {
+        text-align: center;
+    }
+}
