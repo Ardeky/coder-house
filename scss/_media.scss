@@ -9,7 +9,7 @@
 }
 @media(max-width:800px){
     .table{
-        h2,h3 {
+        h2,h3{
             font-size: $textLg;
         }
     }
@@ -35,8 +35,7 @@
             display: flex;
             justify-content: center;
             margin: auto;
-        } 
-    
+        }
     }
 }
 @media(min-width:700px){
@@ -55,7 +54,7 @@
         grid-template-columns: repeat(1,1fr);
     }
     .table{
-        h2,h3 {
+        h2,h3{
             font-size: $textSm;
         }
     }

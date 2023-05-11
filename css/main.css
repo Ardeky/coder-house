@@ -109,15 +109,15 @@ body p {
   grid-area: mb1;
   background: url(../images/galery/melbourne_pole.webp) no-repeat bottom center/cover;
   height: 42.5vw;
-  min-height: 320px;
-  max-height: 420px;
+  min-height: 310px;
+  max-height: 410px;
 }
 .grided .melbourne2 {
   grid-area: mb2;
   background: url(../images/galery/melbourne_maxwinner.webp) no-repeat center center/cover;
   height: 42.5vw;
-  min-height: 320px;
-  max-height: 420px;
+  min-height: 310px;
+  max-height: 410px;
 }
 .grided .melbourne3 {
   grid-area: mb3;
@@ -165,8 +165,8 @@ body p {
   grid-area: jd2;
   background: url(../images/galery/jeddah_yuki_pierre.webp) no-repeat center center/cover;
   height: 42.5vw;
-  min-height: 320px;
-  max-height: 420px;
+  min-height: 310px;
+  max-height: 410px;
 }
 .grided .jeddah3 {
   grid-area: jd3;
@@ -179,8 +179,8 @@ body p {
   grid-area: jd4;
   background: url(../images/galery/jeddah_perez_racewinner.webp) no-repeat center center/cover;
   height: 42.5vw;
-  min-height: 320px;
-  max-height: 420px;
+  min-height: 310px;
+  max-height: 410px;
 }
 .grided .jeddah5 {
   grid-area: jd5;
@@ -214,8 +214,8 @@ body p {
   grid-area: sk3;
   background: url(../images/galery/sakhir_astonmartin.webp) no-repeat right center/cover;
   height: 42.5vw;
-  min-height: 320px;
-  max-height: 420px;
+  min-height: 310px;
+  max-height: 410px;
 }
 .grided .sakhir4 {
   grid-area: sk4;
